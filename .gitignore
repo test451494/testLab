@@ -16,5 +16,7 @@
 *.exe
 *.out
 *.app
-
+###
+# Lewis add
 *~
+bin/

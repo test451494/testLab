@@ -7,7 +7,7 @@ CFLAGS = -o
 INC = -I./include
 #LIB =
 program: program.o bill.o fred.o
-	${CC} ${CFLAGS} program program.o bill.o fred.o 
+	${CC} ${CFLAGS} ./bin/program program.o bill.o fred.o 
 
 program.o: program.c 
 	${CC} -c ${INC} program.c
