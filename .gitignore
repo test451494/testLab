@@ -19,4 +19,5 @@
 ###
 # Lewis add
 *~
-bin/
+bin/*
+!bin/readme
